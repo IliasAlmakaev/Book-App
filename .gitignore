@@ -1,0 +1,30 @@
+# Зависимости
+/node_modules
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Сборка / дистрибутив
+/dist
+/build
+/.next
+/out
+
+# Логи
+*.log
+npm-debug.log*
+
+# Системные файлы macOS/Windows
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Кэш
+.cache/

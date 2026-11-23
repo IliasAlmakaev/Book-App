@@ -1,0 +1,30 @@
+{
+    "name": "book-app",
+    "version": "1.0.0",
+    "description": "Cool book app",
+    "keywords": [
+        "books"
+    ],
+    "homepage": "https://github.com/IliasAlmakaev/Book-App",
+    "bugs": {
+        "url": "https://github.com/IliasAlmakaev/Book-App/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IliasAlmakaev/Book-App.git"
+    },
+    "license": "ISC",
+    "author": "Ilias Almakaev",
+    "type": "module",
+    "main": "app.js",
+    "scripts": {
+        "start": "live-server",
+        "build": "rollup"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.15.0",
+        "globals": "^17.14.0",
+        "rollup": "^4.68.7"
+    }
+}
